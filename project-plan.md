@@ -57,6 +57,6 @@ eBook:
 - conlusion ~1 page
 
 ### 30.03. eBook Sync & Presentation Planning
-Tasks:
+Planned Tasks:
 - sync eBook chapters
 - create presentation template
