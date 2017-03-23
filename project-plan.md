@@ -5,11 +5,11 @@
 ## Table of Content
 
 1. Introduction to Graph Databases	M. H.
-  1.1. Graph Databases
-  1.2. Neo4j
+  1. Graph Databases
+  2. Neo4j
 2. Data Structure			T. W.
 3. Query Language			L. G.
-4. Comparisons				K. O.
+4. Comparisons				K. O.  
   4.1. Relational DBs
   4.2. Document Stores
 5. Use Case (Demo)			ALL
