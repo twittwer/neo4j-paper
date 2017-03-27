@@ -24,7 +24,12 @@ LEFT JOIN Department
 WHERE Department.name = "IT Department"
 ```
 ## Comparison with NoSQL databases
-
+Since relationships are very important in graph databases, it's quite difficult to compare them with NoSQL databases, since they lack relations. Following statement explains this scenario in a good way:
+>Most NoSQL databases store sets of disconnected aggregates. This makes it difficult to use them for connected data and graphs.
+>One well-known strategy for adding relationships to such stores is to embed an aggregate’s identifier inside the field belonging to another aggregate — effectively introducing foreign keys.
+>But this requires joining aggregates at the application level, which quickly becomes prohibitively expensive.
+(Graph Databases, O’Reilly: Jim Webber, Ian Robinson)
 ## Integration with MongoDB
-
+This chapter will describe how to use both neo4j and MongoDB together in a very basic way. It will not go in-depth and there will be no code examples to keep it as simple as possible.
+To get the advantages of both databases (the quick look-up of data from MongoDB and the quick relationship search of neo4j), data needs to be stored in each database with its own data models. The developers of MongoDB have created a tool called "mongo-connector" where other applications can listen for update events. This enables a one-way synchronization with neo4j. Of course all the data model transformations have to be made manually, but once set up the full potential of both databases can be used.
 ## Integration with Cassandra
