@@ -59,7 +59,7 @@ RETURN you
 
 ```
 MATCH (you:Person {name:"You"})
-FOREACH (name in ["Johan","Rajesh","Anna","Julia","Andrew"] |
+FOREACH (name in ["Tobias","Kai","Manuel"] |
   CREATE (you)-[:FRIEND]->(:Person {name:name}))
 ```
 **FOREACH** allows you to execute update operations for each element of a list.
