@@ -9,9 +9,10 @@ In addition the data models of graph databases are simpler and more expressive.
 ![sql data model](/paper/images/organization_relational.png)
 ### Neo4j data model
 ![Neo4j data model](/paper/images/organization_graph.png)
+Graph DB vs RDBMS. https://neo4j.com/developer/graph-db-vs-rdbms/
 
 Like SQL Neo4j also supports the transactional concepts (ACID). That means that data is never lost after it has been commited to the database.
-The query language is pretty similiar, although cypher, the query language of Neo4j is more expressive.
+The query language is pretty similiar, but cypher, the query language of Neo4j, is more expressive.
 Following is a short comparison of the same transaction in SQL and Cypher. This example also demonstrates the strength of Cypher by eliminating two JOIN-operations.
 ### Cypher Statement
 ```Cypher
