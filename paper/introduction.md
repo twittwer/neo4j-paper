@@ -30,13 +30,10 @@ Neo4j uses Cypher as query language. With indexing and the labels of the graph i
 ***
 References:
 
-Neo Technology, Inc. (2017a). _Neo4j Licensing._ Retrieved April 9, 2017, from https://neo4j.com/licensing/
-Neo Technology, Inc. (2017b). _Neo4j: The World’s Leading Graph Database._ Retrieved April 9, 2017, from https://neo4j.com/product/
-Robinson, I., Webber, J., & Eifrem, E. (2013). _Graph Databases._ Sebastopol, CA: O'Reilly Media
-Rodriguez, M. A., & Neubauer, P. (2010). _Constructions from Dots and Lines._ Retrieved from the Cornell University website: https://arxiv.org/abs/1006.2361
-Rouse, M. (2016). _DEFINITION: graph database._ Retrieved April
-5, 2017, from http://whatis.techtarget.com/definition/graph-database
-Solid IT Gmbh (2017). _DB-Engines Ranking von Graph DBMS._ Retrieved April
-8, 2017, from https://db-engines.com/de/ranking/graph+dbms
-W3C (2014). _Resource Description Framework (RDF)._ Retrieved April
-9, 2017, from https://www.w3.org/RDF/
+- Neo Technology, Inc. (2017a). _Neo4j Licensing._ Retrieved April 9, 2017, from https://neo4j.com/licensing/
+- Neo Technology, Inc. (2017b). _Neo4j: The World’s Leading Graph Database._ Retrieved April 9, 2017, from https://neo4j.com/product/
+- Robinson, I., Webber, J., & Eifrem, E. (2013). _Graph Databases._ Sebastopol, CA: O'Reilly Media
+- Rodriguez, M. A., & Neubauer, P. (2010). _Constructions from Dots and Lines._ Retrieved from the Cornell University website: https://arxiv.org/abs/1006.2361
+- Rouse, M. (2016). _DEFINITION: graph database._ Retrieved April 5, 2017, from http://whatis.techtarget.com/definition/graph-database
+- Solid IT Gmbh (2017). _DB-Engines Ranking von Graph DBMS._ Retrieved April 8, 2017, from https://db-engines.com/de/ranking/graph+dbms
+- W3C (2014). _Resource Description Framework (RDF)._ Retrieved April 9, 2017, from https://www.w3.org/RDF/
