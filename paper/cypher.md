@@ -1,7 +1,7 @@
 # Cypher
 
 Cypher is Neo4j’s open graph query language. It was newly created to match the data-structures of Neo4j and to fulfill the special needs of Graph-Databases.
-In Addition it's based on SQL to allow an easy entry point for developer, which already had to work with SQL.
+In Addition it's based on SQL to allow an easy entry point for developer, which already had to work with SQL. (Neo Technology, Inc., 2017b, "About Cypher", para. 1)
 Cypher’s syntax provides a familiar way to match patterns of nodes and relationships in the graph.
 Cypher is also a relatively simple but still very powerful language.
 Very complicated database queries can easily be expressed through Cypher.
@@ -10,7 +10,7 @@ This allows users to focus on their domain instead of getting lost in database a
 ## Example
 
 Cypher contains a variety of clauses. 
-Among the most common are: MATCH and WHERE.
+Among the most common are: MATCH and WHERE. (Neo Technology, Inc., 2017c, "A few words about Cypher", para. 3)
 These functions are slightly different than in SQL.
 MATCH is used for describing the structure of the pattern searched for, primarily based on relationships.
 WHERE is used to add additional constraints to patterns.
@@ -24,7 +24,7 @@ ORDER BY title ASC LIMIT 10;
 
 ## ASCII-Art and Nodes
 
-Cypher uses ASCII-Art to represent patterns. We surround nodes with parentheses which look like circles, e.g. **(node)**.
+Cypher uses ASCII-Art to represent patterns. We surround nodes with parentheses which look like circles, e.g. **(node)**. (Neo Technology, Inc., 2017b, "Nodes", para. 1)
 
 ![node ascii art](/paper/images/cypher_pattern_simple.png)
 
@@ -35,7 +35,7 @@ If the node is not relevant to your question, you can also use empty parentheses
 ## Relationships
 
 To fully utilize the power of our graph database we want to express more complex patterns between our nodes.
-Relationships are basically an arrow **-->** between two nodes.
+Relationships are basically an arrow **-->** between two nodes. (Neo Technology, Inc., 2017b, "Relationships", para. 1)
 Additional information can be placed in square brackets inside of the arrow.
 
 This can be
@@ -44,6 +44,7 @@ This can be
 - a variable name **-[rel:KNOWS]->** before the colon
 - additional properties **-[{since:2010}]->**
 - structural information for paths of variable length **-[:KNOWS\*..4]->**
+(Neo Technology, Inc., 2017b, "Relationships", para. 3)
 
 ## Create a Record
 
@@ -73,3 +74,12 @@ RETURN you, yourFriends
 
 ![graph friends](/paper/images/friends.png)
 
+
+***
+References:
+
+- Neo Technology, Inc. (2017a). _Cypher Query Language Developer Guides & Tutorials._ Retrieved April 9, 2017, from https://neo4j.com/developer/cypher/
+- Neo Technology, Inc. (2017b). _Neo4j's Graph Query Language: An Introduction to Cypher._ Retrieved April 9, 2017, from https://neo4j.com/developer/cypher-query-language/
+- Neo Technology, Inc. (2017c). _For Relational Database Developers: A SQL to Cypher Guide._ Retrieved April 9, 2017, from https://neo4j.com/developer/guide-sql-to-cypher/
+- Mahler, D. (2014). _Graphendatenbank: Flexible Datenabfragen mit Neo4j._ Retrieved April 9, 2017, from https://www.heise.de/developer/artikel/Graphendatenbank-Flexible-Datenabfragen-mit-Neo4j-2176439.html
+- Panzarino, O. (2014). _Learning Cypher._ CA: Packt Publishing Ltd
