@@ -41,5 +41,5 @@ To get the advantages of each database system, data needs to be stored in each d
 
 ***
 > ## Sources
-> Webber, J. & Robinson, I. (2015) *Graph Databases*. O'Reilly
-> Graph DB vs RDBMS. https://neo4j.com/developer/graph-db-vs-rdbms/
+> - Webber, J. & Robinson, I. (2015) *Graph Databases*. O'Reilly
+> - Graph DB vs RDBMS. https://neo4j.com/developer/graph-db-vs-rdbms/
