@@ -19,7 +19,7 @@ Neo4j is used by companies such as Walmart for real-time recommendations, Ebac f
 
 Neo4j is mainly used for relational analytics and is hence not efficient unless you have many joins. The following chart will enforce this statement.<br>
 ![neo4j sql comparison](/paper/images/neo4j_joins.PNG)<br>
-Dhaval Dalal (2014). Neo4j MySql MS-SQL comparison [Graph & Table]. https://de.slideshare.net/DhavalDalal/neo4j-my-sqlmssqlcomparisonfinal (p. 19).<br>
+Dhaval Dalal (2014). *Neo4j MySql MS-SQL comparison* [Graph & Table]. https://de.slideshare.net/DhavalDalal/neo4j-my-sqlmssqlcomparisonfinal (p. 19).<br>
 As seen in the graph, Neo4j's full potential unleashes when many join-operations are being used as the query execution time stays at a constant low, whereas the execution time for inner joins in MySQL rises exponentially.
 
 Overall Neo4j is quite unique, but has high potential in the relational aspects of databases.
@@ -27,4 +27,4 @@ Overall Neo4j is quite unique, but has high potential in the relational aspects 
 ***
 > ## Sources
 > - Neo4j Staff (2011) *Intro to Graph Databases*. Retrieved April 9 2017 from https://neo4j.com/blog/recap-intro-to-graph-databases-webinar-series-1/
-> - Dhaval Dalal (2014). Neo4j MySql MS-SQL comparison [Graph & Table]. https://de.slideshare.net/DhavalDalal/neo4j-my-sqlmssqlcomparisonfinal
+> - Dhaval Dalal (2014). *Neo4j MySql MS-SQL comparison* [Graph & Table]. Retrieved April 9 2017 from https://de.slideshare.net/DhavalDalal/neo4j-my-sqlmssqlcomparisonfinal
