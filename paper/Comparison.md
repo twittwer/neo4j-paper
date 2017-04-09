@@ -9,7 +9,6 @@ In addition the data models of graph databases are simpler and more expressive.
 ![sql data model](/paper/images/organization_relational.png)
 ### Neo4j data model
 ![Neo4j data model](/paper/images/organization_graph.png)
-Graph DB vs RDBMS. https://neo4j.com/developer/graph-db-vs-rdbms/
 
 Like SQL Neo4j also supports the transactional concepts (ACID). That means that data is never lost after it has been commited to the database.
 The query language is pretty similiar, but cypher, the query language of Neo4j, is more expressive.
@@ -40,3 +39,7 @@ Webber, J. & Robinson, I. (2015) *Graph Databases*. O'Reilly
 This chapter will describe how to use Neo4j together with other database systems in a very basic way. It will not go in-depth and there will be no code examples to keep it as simple as possible.
 To get the advantages of each database system, data needs to be stored in each database with its own data models. This is called polyglot programming: using multiple different languages, here multiple different database systems. There are existing tools for different database systems which can be used as some kind of connector to another system. The connectors let the other system subscribe to update events, so the data can be inserted in one database system and then added in the other system. The developers of MongoDB for example have created a tool called "mongo-connector" where other applications can listen for update events. This enables a one-way synchronization with Neo4j. Of course all the data model transformations have to be made manually, but once set up the full potential of both databases can be used.
 
+***
+> ## Sources
+> Webber, J. & Robinson, I. (2015) *Graph Databases*. O'Reilly
+> Graph DB vs RDBMS. https://neo4j.com/developer/graph-db-vs-rdbms/
