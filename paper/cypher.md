@@ -82,4 +82,4 @@ References:
 - Neo Technology, Inc. (2017b). _Neo4j's Graph Query Language: An Introduction to Cypher._ Retrieved April 9, 2017, from https://neo4j.com/developer/cypher-query-language/
 - Neo Technology, Inc. (2017c). _For Relational Database Developers: A SQL to Cypher Guide._ Retrieved April 9, 2017, from https://neo4j.com/developer/guide-sql-to-cypher/
 - Mahler, D. (2014). _Graphendatenbank: Flexible Datenabfragen mit Neo4j._ Retrieved April 9, 2017, from https://www.heise.de/developer/artikel/Graphendatenbank-Flexible-Datenabfragen-mit-Neo4j-2176439.html
-- Panzarino, O. (2014). _Learning Cypher._ CA: Packt Publishing Ltd
+- Panzarino, O. (2014). _Learning Cypher._ Birmingham, United Kingdom: Packt Publishing Ltd
