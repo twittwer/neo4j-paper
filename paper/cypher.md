@@ -1,7 +1,7 @@
 # Cypher
 
 Cypher is Neo4j’s open graph query language. It was newly created to match the data-structures of Neo4j and to fulfill the special needs of Graph-Databases.
-In Addition it's based on SQL to allow an easy entry point for developer, which already had to work with SQL. (Neo Technology, Inc., 2017b, "About Cypher", para. 1)
+In addition it's based on SQL to allow an easy entry point for developers, which already had to work with SQL. (Neo Technology, Inc., 2017b, "About Cypher", para. 1)
 Cypher’s syntax provides a familiar way to match patterns of nodes and relationships in the graph.
 Cypher is also a relatively simple but still very powerful language.
 Very complicated database queries can easily be expressed through Cypher.
@@ -14,7 +14,7 @@ Among the most common are: MATCH and WHERE. (Neo Technology, Inc., 2017c, "A few
 These functions are slightly different than in SQL.
 MATCH is used for describing the structure of the pattern searched for, primarily based on relationships.
 WHERE is used to add additional constraints to patterns.
-For example, the below query will return all movies starting with "T", and return it's cast as collection:
+For example, the below query will return all movies starting with "T", and return its cast as a collection:
 ```
 MATCH (actor:Person)-[:ACTED_IN]->(movie:Movie)  
 WHERE movie.title STARTS WITH "T"  
@@ -24,17 +24,17 @@ ORDER BY title ASC LIMIT 10;
 
 ## ASCII-Art and Nodes
 
-Cypher uses ASCII-Art to represent patterns. We surround nodes with parentheses which look like circles, e.g. **(node)**. (Neo Technology, Inc., 2017b, "Nodes", para. 1)
+Cypher uses ASCII-Art to represent patterns. It surrounds nodes with parentheses which look like circles, e.g. **(node)**. (Neo Technology, Inc., 2017b, "Nodes", para. 1)
 
 ![node ascii art](/paper/images/cypher_pattern_simple.png)
 
-If you want to refer to the node later, you can give it an variable like (p) for person or (t) for thing.
-In real-world queries, you would probably use longer, more expressive variable names like (person) or (thing).
-If the node is not relevant to your question, you can also use empty parentheses ().
+To reference a node at a later time, it can be stored in a variable like (p) for person or (t) for thing.
+In real-world queries, there would probably be longer, more expressive variable names like (person) or (thing).
+If the node is not relevant to the question, the parenthesis can also be empty ().
 
 ## Relationships
 
-To fully utilize the power of our graph database we want to express more complex patterns between our nodes.
+To fully utilize the power of graph databases complex patterns between the nodes can be expressed.
 Relationships are basically an arrow **-->** between two nodes. (Neo Technology, Inc., 2017b, "Relationships", para. 1)
 Additional information can be placed in square brackets inside of the arrow.
 
@@ -63,7 +63,7 @@ MATCH (you:Person {name:"You"})
 FOREACH (name in ["Tobias","Kai","Manuel"] |
   CREATE (you)-[:FRIEND]->(:Person {name:name}))
 ```
-**FOREACH** allows you to execute update operations for each element of a list.
+**FOREACH** allows the execution of update operations for each element of a list.
 
 ## Show Relations
 
