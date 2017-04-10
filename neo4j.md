@@ -21,13 +21,13 @@ If there is the possibility to structure your data in the database the same way 
 
 ### 1.1. Graph Databases
 
-Graph databases use graph structure to order data in the database. There is more than one solution for using graphs. The main aspects of the first are nodes and edges, which are essential for the database structure (Robinson, Webber, & Eifrem, 2013, pp. 1-4).
+Graph databases use graph structure to order data in the database. There is more than one solution for using graphs. The main aspects of the first are nodes and edges, which are essential for the database structure (Robinson, Webber & Eifrem, 2013, pp. 1-4).
 The connection between the nodes are the relations of the data. In the example picture below (Rouse, 2016, para. 1), you can see how graph databases work with the nodes and their relations. For example you can see the married couple Julie and Bob.
 
 [![ExampleGraph](/paper/images/IntroExampleGraph.JPG)](
 http://whatis.techtarget.com/definition/graph-database)
 
-You can also build property graphs, which you can use for routing. For example, you can find the shortest way from one city to another. The special thing about property graphs is, that attributes can be added to the nodes and edges. So you can store further information in your graph (Rodriguez, & Neubauer, 2010, p. 3).
+You can also build property graphs, which you can use for routing. For example, you can find the shortest way from one city to another. The special thing about property graphs is, that attributes can be added to the nodes and edges. So you can store further information in your graph (Rodriguez & Neubauer, 2010, p. 3).
 
 The second one is used for the semantic web and concentrates on triples. Semantic web stands for machine processable web. In the semantic web the W3C consortium defined a framework how to work with the triples (W3C, 2014, "Overview", para. 1). It is called Resource Description Framework and its structure is like following:
 
@@ -39,7 +39,7 @@ Despite you can see the same node and edge structure, it is different to the pro
 
 ### 1.2. Neo4j
 
-Neo4j - developed by Neo Technology - is one of the first and up to now the most popular graph database implementation. Neo4j is more than five times popular than the second graph database - OrientDB (Solid IT Gmbh, 2017, para. 1).<br>
+Neo4j - developed by Neo Technology - is one of the first and up to now the most popular graph database implementation. Neo4j is more than five times popular than the second graph database - OrientDB (Solid IT GmbH, 2017, para. 1).<br>
 Its first Version was released in 2010 after three years of development. It is called as transactional, disk based database, which follows the ACID principle (Neo Technology, Inc., 2017b, "Neo4j Internals", para. 4). The implementation is in Java and can be used in two different license models. The Community and the Enterprise Edition.<br>
 The Community Edition is free, but only running on a single node. You can use all the features of Neo4j without high availability through clustering and hot backup. 
 These additional modules are coming with the Enterprise Edition only. There are some further categorizations for the Enterprise version like the test licenses Evaluation, the Educational and the Neo4j Loves Open Source licenses (Neo Technology, Inc., 2017a, "About Neo4j Licenses", para. 1).<br>
@@ -179,7 +179,7 @@ The following chapters will compare graph databases, especially Neo4j with other
 This chapter will give a basic overview of the similiarities and differences between graph databases and relational databases. More specifically this chapter will focus on Neo4j and SQL. 
 In Neo4j relationships are first-class citizens. In SQL these relationships can only be created by using foreign keys and therefore Neo4j eliminates foreign keys. Each node contains a list of relationship-records. These relationship-records are organized by type and direction and can hold additional attributes. When you would normally run a JOIN-operation these records are used. This is the biggest advantage graph databases have over relational databases: The costs of expensive search and match operations are eliminated.
 This leads to much higher performance levels than those of relational databases.
-In addition the data models of graph databases are simpler and more expressive as seen in the below images (Hunger, Boyd, & Lyon, 2016, pp. 9-10).
+In addition the data models of graph databases are simpler and more expressive as seen in the below images (Hunger, Boyd & Lyon, 2016, pp. 9-10).
 
 #### SQL data model
 ![sql data model](/paper/images/organization_relational.png)
@@ -231,7 +231,7 @@ Neo4j has many use cases. For example it is used by companies such as Walmart fo
 Neo4j is mainly used for relational analytics and is hence not efficient unless you have many joins. The following chart will enforce this statement.
 
 ![neo4j sql comparison](/paper/images/neo4j_joins.PNG)  
-(Dhaval Dalal, 2014, slide 19).
+(Dalal, 2014, slide 19).
 
 As shown in the graph, Neo4j's full potential unleashes when many join-operations are executed as the query execution time stays constantly low, whereas the execution time for inner joins in MySQL rises exponentially. Another performance aspect is, that Neo4j in its second version can automatically index often used Nodes and gets an additional speed advantage at run time.
 
@@ -241,11 +241,10 @@ It is still the most popular graph database and some weaknesses can be handled b
 
 ## 6. Reference List
 
-- Dhaval Dalal (2014). _Neo4j MySql MS-SQL comparison_. Retrieved April, 9, 2017, from https://de.slideshare.net/DhavalDalal/neo4j-my-sqlmssqlcomparisonfinal
-- _Graph DB vs RDBMS_. Retrieved April, 9, 2017, from https://neo4j.com/developer/graph-db-vs-rdbms/
+- Dalal, D. (2014). _Neo4j MySql MS-SQL comparison_. Retrieved April, 9, 2017, from https://de.slideshare.net/DhavalDalal/neo4j-my-sqlmssqlcomparisonfinal
 - Gupta, S. (2015). _Neo4j Essentials_. Retrieved from https://books.google.de/books?id=WJ7NBgAAQBAJ
 - Hunger, M. (2013). _Data Modeling with Neo4j_. Retrieved from the SlideShare website: https://de.slideshare.net/neo4j/data-modeling-with-neo4j
-- Hunger, M., Boyd, R., & Lyon, W. (2016). _The Definitive Guide to Graph Databases for the RDBMS Developer_. Retrieved April, 10. 2017, from http://info.neotechnology.com/rs/773-GON-065/images/Definitive-Guide-Graph-Databases-for-RDBMS-Developer.pdf
+- Hunger, M., Boyd, R. & Lyon, W. (2016). _The Definitive Guide to Graph Databases for the RDBMS Developer_. Retrieved April, 10. 2017, from http://info.neotechnology.com/rs/773-GON-065/images/Definitive-Guide-Graph-Databases-for-RDBMS-Developer.pdf
 - Neo4j Staff (2011). _Intro to Graph Databases_. Retrieved April, 9, 2017, from https://neo4j.com/blog/recap-intro-to-graph-databases-webinar-series-1/
 - Neo Technology, Inc. (2017a). _Neo4j Licensing_. Retrieved April 9, 2017, from https://neo4j.com/licensing/
 - Neo Technology, Inc. (2017b). _Neo4j: The World’s Leading Graph Database_. Retrieved April 9, 2017, from https://neo4j.com/product/
@@ -253,11 +252,12 @@ It is still the most popular graph database and some weaknesses can be handled b
 - Neo Technology, Inc. (2017d). _Intro to Cypher_. Retrieved March 29, 2017, from https://neo4j.com/developer/cypher-query-language
 - Neo Technology, Inc. (2017e). _Cypher Query Language Developer Guides & Tutorials_. Retrieved April 9, 2017, from https://neo4j.com/developer/cypher
 - Neo Technology, Inc. (2017f). _For Relational Database Developers: A SQL to Cypher Guide_. Retrieved April 9, 2017, from https://neo4j.com/developer/guide-sql-to-cypher
+- Neo Technology, Inc. (2017g). _Graph DB vs RDBMS_. Retrieved April, 9, 2017, from https://neo4j.com/developer/graph-db-vs-rdbms/
 - Mahler, D. (2014). _Graphendatenbank: Flexible Datenabfragen mit Neo4j_. Retrieved April 9, 2017, from https://www.heise.de/developer/artikel/Graphendatenbank-Flexible-Datenabfragen-mit-Neo4j-2176439.html
 - Panzarino, O. (2014). _Learning Cypher_. Birmingham, United Kingdom: Packt Publishing Ltd
-- Robinson, I., Webber, J., & Eifrem, E. (2013). _Graph Databases_. Sebastopol, CA: O'Reilly Media
-- Rodriguez, M. A., & Neubauer, P. (2010). _Constructions from Dots and Lines_. Retrieved from the Cornell University website: https://arxiv.org/abs/1006.2361
+- Robinson, I., Webber, J. & Eifrem, E. (2013). _Graph Databases_. Sebastopol, CA: O'Reilly Media
+- Rodriguez, M. A. & Neubauer, P. (2010). _Constructions from Dots and Lines_. Retrieved from the Cornell University website: https://arxiv.org/abs/1006.2361
 - Rouse, M. (2016). _DEFINITION: graph database_. Retrieved April 5, 2017, from http://whatis.techtarget.com/definition/graph-database
 - Solid IT GmbH (2017). _DB-Engines Ranking von Graph DBMS_. Retrieved April 8, 2017, from https://db-engines.com/de/ranking/graph+dbms
-- Webber, J., & Robinson, I. (2015). _Graph Databases_. O'Reilly
+- Webber, J. & Robinson, I. (2015). _Graph Databases_. O'Reilly
 - W3C (2014). _Resource Description Framework (RDF)_. Retrieved April 9, 2017, from https://www.w3.org/RDF/
