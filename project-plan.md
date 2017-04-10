@@ -6,12 +6,12 @@
 
 - ~~Do,09.03. Basic Research~~
 - ~~Do,23.03. eBook & Demo Planning~~
-- Do,30.03. eBook Sync & Presentation Planning
+- ~~Do,30.03. eBook Sync & Presentation Planning~~
   - write 2+ pages about your topic
-- Do,06.04. Demo & eBook & Presentation Check
+- ~~Do,06.04. Demo & eBook & Presentation Check~~
   - finalize your chapter
   - design your slides
-- Mo,10.04. eBook & Presentation Finalization
+- ~~Mo,10.04. eBook & Presentation Finalization~~
 - Di,11.04. eBook Deadline
 - Mi,12.04. The Presentation
 
