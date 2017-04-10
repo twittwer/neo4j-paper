@@ -1,20 +1,20 @@
 # Conclusion
 
 In the end you can say that Graph databases, and therefore also Neo4j, don't need joins to achieve relationships, since they are already first-class citizens. This has a huge impact on performance, since join-operations are very expensive.
-As Neo4j holds its data as JSON it has a similiar structure to document based databases and could therefore be used together. Out of that you can get the advantages of both systems. The only disadvantage is, that you need to hold every data twice and so you need more storage. 
+As Neo4j holds its data as JSON it has a similiar structure to document based databases and could be used together. That way you can get the advantages of both systems. The only disadvantage is the need to store the whole data twice, which requires more storage. 
 
-Back to Neo4j. In the CAP-theorem it stands between C and A and is therefore not partition tolerant. Since Neo4j is relationship-oriented trying to achieve partition tolerance can cause many side effects and complex queries are necessary. When you try to get some partition tolerance you lose the other advantages and so there is no use of the hard work.
+In general Neo4j fullfills the CAP-theorem in points of **c**onsistency and **a**vailablity and doesn't provide **p**artition tolerant. Because Neo4j is relationship-oriented, trying to achieve partition tolerance can cause many side effects and complex queries would decrease the performance considerable.
 
-Neo4j has many use cases. For example it is used by companies such as Walmart for real-time recommendations, Ebay for logistics, LinkedIn as a Social Network and TomTom for GeoRouting. It is however not used by Facebook, which "they should" as told by the Neo4j staff (Neo4j Staff, 2011, para. 5).<br>
+Neo4j has many use cases. For example it is used by companies such as Walmart for real-time recommendations, Ebay for logistics, LinkedIn as a representation for their Social Network and TomTom for geo-routing. An interessting fact at this point was published by the Neo4j staff. They said Neo4j is not used by Facebook, which "they should" change (Neo4j Staff, 2011, para. 5).<br>
 
 Neo4j is mainly used for relational analytics and is hence not efficient unless you have many joins. The following chart will enforce this statement.<br>
 ![neo4j sql comparison](/paper/images/neo4j_joins.PNG)<br>
 (Dhaval Dalal, 2014, slide 19).<br>
-As seen in the graph, Neo4j's full potential unleashes when many join-operations are being used as the query execution time stays at a constant low, whereas the execution time for inner joins in MySQL rises exponentially. Another performance aspect is, that Neo4j in its second version can automatically index often used Nodes and get an additional speed advantage out of that.
+As shown in the graph, Neo4j's full potential unleashes when many join-operations are executed as the query execution time stays constantly low, whereas the execution time for inner joins in MySQL rises exponentially. Another performance aspect is, that Neo4j in its second version can automatically index often used Nodes and gets an additional speed advantage while run time.
 
-Overall Neo4j is quite unique, but has high potential in the relational aspects of databases.
-It is usefull for complex relational data queries and can be used for many different business fields.
-It is still the most popular graph database and some weeknesses can be shortened if you use Neo4j with another NoSQL database.
+Overall Neo4j is quite unique, but has high potential in the sector of relational databases.
+It is usefull to perform complex relational data queries and can be used for many different business case.
+It is still the most popular graph database and some weeknesses can be handeled by using Neo4j with another NoSQL database together.
 
 ***
 > ## Sources
