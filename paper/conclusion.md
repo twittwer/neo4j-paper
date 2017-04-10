@@ -1,7 +1,7 @@
 # Conclusion
 
 In the end you can say that Graph databases, and therefore also Neo4j, don't need joins to achieve relationships, since they are already first-class citizens. This has a huge impact on performance, since join-operations are very expensive.
-As Neo4j holds its data as Json it has a similiar structure to document based databases and could therefore be used together. Out of that you can get the advantages of both systems. The only disadvantage is, that you need to hold every data twice and so you need more storage. 
+As Neo4j holds its data as JSON it has a similiar structure to document based databases and could therefore be used together. Out of that you can get the advantages of both systems. The only disadvantage is, that you need to hold every data twice and so you need more storage. 
 
 Back to Neo4j. In the CAP-theorem it stands between C and A and is therefore not partition tolerant. Since Neo4j is relationship-oriented trying to achieve partition tolerance can cause many side effects and complex queries are necessary. When you try to get some partition tolerance you lose the other advantages and so there is no use of the hard work.
 
