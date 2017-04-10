@@ -12,6 +12,7 @@ The connection between the nodes are the relations of the data. In the example p
 http://whatis.techtarget.com/definition/graph-database)
 
 You can also build property graphs, which you can use for routing. For example, you can find the shortest way from one city to another. The special thing about property graphs is, that attributes can be added to the nodes and edges. So you can store further information in your graph (Rodriguez, & Neubauer, 2010, p. 3).
+
 The second one is used for the semantic web and concentrates on triples. Semantic web stands for machine processable web. In the semantic web the W3C consortium defined a framework how to work with the triples (W3C, 2014, "Overview", para. 1). It is called Resource Description Framework and its structure is like following:
 
 - First part: subject, where the relation starts. 
