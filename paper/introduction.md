@@ -28,6 +28,7 @@ Its first Version was released in 2010 after three years of development. It is c
 The Community Edition is for free, but only running on a single node. You can use all the features of Neo4j without high availability through clustering and hot backup. 
 These additional modules are coming with the Enterprise Edition only. There are some further categorizations for the Enterprise version like the test licenses Evaluation, the Educational and the Neo4j Loves Open Source licenses (Neo Technology, Inc., 2017a, "About Neo4j Licenses", para. 1).<br>
 Neo4j uses Cypher as query language. With indexing and the labels of the graph it helps to accelerate the queries, which is one of the main advantage of using graph databases and especially Neo4j.
+
 Now you get a deeper insight into Neo4j and its data structure.
 
 ***
