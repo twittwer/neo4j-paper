@@ -8,7 +8,7 @@ If there is the possibility to structure your data in the database in the same w
 Graph databases uses graph structure to order data in the database. There is more than one solution for using graphs. The main aspects of the first are nodes and edges, which are essential for the database structure (Robinson, Webber, & Eifrem, 2013, pp. 1-4).
 The connection between the nodes are the relations of the data. In the example picture below (Rouse, 2016, para. 1), you can see how graph databases work with the nodes and their relations. For example you can see the married couple Julie and Bob.
 
-[![ExampleGraph](http://itknowledgeexchange.techtarget.com/overheard/files/2014/01/Graph-database-sketch.jpg)](
+[![ExampleGraph](/paper/images/IntroExampleGraph.png)](
 http://whatis.techtarget.com/definition/graph-database)
 
 You can also build property graphs, which you can use for routing. For example, you can find the shortest way from one city to another. The special thing about property graphs is, that attributes can be added to the nodes and edges. So you can store further information in your graph (Rodriguez, & Neubauer, 2010, p. 3).
