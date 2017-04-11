@@ -1,9 +1,9 @@
 # Cypher
 
-Cypher is Neo4j’s open graph query language. It was newly created to match the data-structures of Neo4j and to fulfill the special needs of Graph-Databases.
+Cypher is Neo4j’s open graph query language (Neo Technology, Inc., 2017a, "Cypher Query Language", para. 1). It was newly created to match the data-structures of Neo4j and to fulfill the special needs of Graph-Databases.
 In addition it's based on SQL to allow an easy entry point for developers, which already had to work with SQL. (Neo Technology, Inc., 2017b, "About Cypher", para. 1)
 Cypher’s syntax provides a familiar way to match patterns of nodes and relationships in the graph.
-Cypher is also a relatively simple but still very powerful language.
+Cypher is also a relatively simple but still very powerful language. (Mahler, D. (2014), "Fazit", para. 1)
 Very complicated database queries can easily be expressed through Cypher.
 This allows users to focus on their domain instead of getting lost in database access because it allows the user to state what he wants to select, insert, update or delete from his graph data without requiring him to describe exactly how to do it.
 
@@ -81,5 +81,4 @@ References:
 - Neo Technology, Inc. (2017a). _Cypher Query Language Developer Guides & Tutorials._ Retrieved April 9, 2017, from https://neo4j.com/developer/cypher/
 - Neo Technology, Inc. (2017b). _Neo4j's Graph Query Language: An Introduction to Cypher._ Retrieved April 9, 2017, from https://neo4j.com/developer/cypher-query-language/
 - Neo Technology, Inc. (2017c). _For Relational Database Developers: A SQL to Cypher Guide._ Retrieved April 9, 2017, from https://neo4j.com/developer/guide-sql-to-cypher/
-- Mahler, D. (2014). _Graphendatenbank: Flexible Datenabfragen mit Neo4j._ Retrieved April 9, 2017, from https://www.heise.de/developer/artikel/Graphendatenbank-Flexible-Datenabfragen-mit-Neo4j-2176439.html
-- Panzarino, O. (2014). _Learning Cypher._ Birmingham, United Kingdom: Packt Publishing Ltd
+- Mahler, D. (2014). _Graphendatenbank: Flexible Datenabfragen mit Neo4j._ Retrieved April 9, 2017, from https://www.heise.de/developer/artikel/Graphendatenbank-Flexible-Datenabfragen-mit-Neo4j-2176439.html?artikelseite=3
