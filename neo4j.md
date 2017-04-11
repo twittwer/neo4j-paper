@@ -40,9 +40,9 @@ Despite you can see the same node and edge structure, it is different to the pro
 ### 1.2. Neo4j
 
 Neo4j - developed by Neo Technology - is one of the first and up to now the most popular graph database implementation. Neo4j is more than five times popular than the second graph database - OrientDB (Solid IT GmbH, 2017, para. 1).<br>
-Its first Version was released in 2010 after three years of development. It is called as transactional, disk based database, which follows the ACID principle (Neo Technology, Inc., 2017b, "Neo4j Internals", para. 4). The implementation is in Java and can be used in two different license models. The Community and the Enterprise Edition.<br>
+Its first Version was released in 2010 after three years of development. It is called as transactional, disk based database, which follows the ACID principle (Neo Technology, Inc., 2017g, "Neo4j Internals", para. 4). The implementation is in Java and can be used in two different license models. The Community and the Enterprise Edition.<br>
 The Community Edition is free, but only running on a single node. You can use all the features of Neo4j without high availability through clustering and hot backup. 
-These additional modules are coming with the Enterprise Edition only. There are some further categorizations for the Enterprise version like the test licenses Evaluation, the Educational and the Neo4j Loves Open Source licenses (Neo Technology, Inc., 2017a, "About Neo4j Licenses", para. 1).<br>
+These additional modules are coming with the Enterprise Edition only. There are some further categorizations for the Enterprise version like the test licenses Evaluation, the Educational and the Neo4j Loves Open Source licenses (Neo Technology, Inc., 2017f, "About Neo4j Licenses", para. 1).<br>
 Neo4j uses Cypher as query language. With indexing and the labels of the graph it helps to accelerate the queries, which is one of the main advantage of using graph databases and especially Neo4j.
 
 Now you get a deeper insight into Neo4j and its data structure.
@@ -72,7 +72,7 @@ The main and obvious difference are the two connected nodes. So every relationsh
 
 After looking at the elements of the Neo4j data structure, we will now have a look at how we create this structure in our database instance.
 At first it’s necessary to create some nodes. Therefore we use the CREATE command followed by round brackets to define the node itself. The first element of the node definition is an optional variable name at first to save the reference to the created node, if needed. After this a colon and label name is required to define the node set. The label doesn’t need to be defined before using it here. At last we enter the JSON object with our node properties and close the definition brackets.
-(Neo Technology, Inc., 2017d, "Create a Record for Yourself", para. 1) (Gupta, 2015, p. 80)
+(Neo Technology, Inc., 2017e, "Create a Record for Yourself", para. 1) (Gupta, 2015, p. 80)
 
 ```
 CREATE ( variable:LABEL {} )
@@ -82,7 +82,7 @@ CREATE ( johnSmith:Borrower { name: ‘John Smith’ } )
 ```
 
 Secondly we can create the relationships. Thanks to the ascii-art syntax it’s easy to understand the create statements. It starts again with a CREATE and is followed by round brackets. In this case this brackets can contain a node definition again, but also a simple variable name to reference an existing node. After the brackets a hyphen connects the first node to the relationship definition part surrounded by square brackets. This definition is structured like the node definition: optional variable name, label, JSON object. An ascii arrow (“->”) connects the closing square bracket with the second node, this relation will point to. In the style of the first node we have here round brackets with a variable or a  whole node definition.
-(Neo Technology, Inc., 2017d, "Create a Record for Yourself", para. 1) (Gupta, 2015, p. 81-82)
+(Neo Technology, Inc., 2017e, "Create a Record for Yourself", para. 1) (Gupta, 2015, p. 81-82)
 
 ```
 CREATE (sourceNode)-[ variable:LABEL {} ]->(targetNode)
@@ -97,7 +97,7 @@ Below you can have a look at the created graph of the simple example.
 ## 3. Cypher Language
   
 Cypher is Neo4j’s open graph query language. It was newly created to match the data-structures of Neo4j and to fulfill the special needs of Graph-Databases.
-In addition it's based on SQL to allow an easy entry point for developers, which already had to work with SQL. (Neo Technology, Inc., 2017d, "About Cypher", para. 1)
+In addition it's based on SQL to allow an easy entry point for developers, which already had to work with SQL. (Neo Technology, Inc., 2017e, "About Cypher", para. 1)
 Cypher’s syntax provides a familiar way to match patterns of nodes and relationships in the graph.
 Cypher is also a relatively simple but still very powerful language.
 Very complicated database queries can easily be expressed through Cypher.
@@ -106,7 +106,7 @@ This allows users to focus on their domain instead of getting lost in database a
 #### Example
 
 Cypher contains a variety of clauses. 
-Among the most common are: MATCH and WHERE. (Neo Technology, Inc., 2017f, "A few words about Cypher", para. 3)
+Among the most common are: MATCH and WHERE. (Neo Technology, Inc., 2017b, "A few words about Cypher", para. 3)
 These functions are slightly different than in SQL.
 MATCH is used for describing the structure of the pattern searched for, primarily based on relationships.
 WHERE is used to add additional constraints to patterns.
@@ -120,7 +120,7 @@ ORDER BY title ASC LIMIT 10;
 
 #### ASCII-Art and Nodes
 
-Cypher uses ASCII-Art to represent patterns. It surrounds nodes with parentheses which look like circles, e.g. **(node)**. (Neo Technology, Inc., 2017d, "Nodes", para. 1)
+Cypher uses ASCII-Art to represent patterns. It surrounds nodes with parentheses which look like circles, e.g. **(node)**. (Neo Technology, Inc., 2017e, "Nodes", para. 1)
 
 ![node ascii art](/paper/images/cypher_pattern_simple.png)
 
@@ -131,7 +131,7 @@ If the node is not relevant to the question, the parenthesis can also be empty (
 #### Relationships
 
 To fully utilize the power of graph databases complex patterns between the nodes can be expressed.
-Relationships are basically an arrow **-->** between two nodes. (Neo Technology, Inc., 2017d, "Relationships", para. 1)
+Relationships are basically an arrow **-->** between two nodes. (Neo Technology, Inc., 2017e, "Relationships", para. 1)
 Additional information can be placed in square brackets inside of the arrow.
 
 This can be
@@ -140,7 +140,7 @@ This can be
 - a variable name **-[rel:KNOWS]->** before the colon
 - additional properties **-[{since:2010}]->**
 - structural information for paths of variable length **-[:KNOWS\*..4]->**
-(Neo Technology, Inc., 2017d, "Relationships", para. 3)
+(Neo Technology, Inc., 2017e, "Relationships", para. 3)
 
 #### Create a Record
 
@@ -246,13 +246,13 @@ It is still the most popular graph database and some weaknesses can be handled b
 - Hunger, M. (2013). _Data Modeling with Neo4j_. Retrieved from the SlideShare website: https://de.slideshare.net/neo4j/data-modeling-with-neo4j
 - Hunger, M., Boyd, R. & Lyon, W. (2016). _The Definitive Guide to Graph Databases for the RDBMS Developer_. Retrieved April, 10. 2017, from http://info.neotechnology.com/rs/773-GON-065/images/Definitive-Guide-Graph-Databases-for-RDBMS-Developer.pdf
 - Neo4j Staff (2011). _Intro to Graph Databases_. Retrieved April, 9, 2017, from https://neo4j.com/blog/recap-intro-to-graph-databases-webinar-series-1/
-- Neo Technology, Inc. (2017a). _Neo4j Licensing_. Retrieved April 9, 2017, from https://neo4j.com/licensing/
-- Neo Technology, Inc. (2017b). _Neo4j: The World’s Leading Graph Database_. Retrieved April 9, 2017, from https://neo4j.com/product/
+- Neo Technology, Inc. (2017a). _Cypher Query Language Developer Guides & Tutorials_. Retrieved April 9, 2017, from https://neo4j.com/developer/cypher
+- Neo Technology, Inc. (2017b). _For Relational Database Developers: A SQL to Cypher Guide_. Retrieved April 9, 2017, from https://neo4j.com/developer/guide-sql-to-cypher
 - Neo Technology, Inc. (2017c). _Graph Data Modeling Guidelines_. Retrieved March 29, 2017, from https://neo4j.com/developer/guide-data-modeling
-- Neo Technology, Inc. (2017d). _Intro to Cypher_. Retrieved March 29, 2017, from https://neo4j.com/developer/cypher-query-language
-- Neo Technology, Inc. (2017e). _Cypher Query Language Developer Guides & Tutorials_. Retrieved April 9, 2017, from https://neo4j.com/developer/cypher
-- Neo Technology, Inc. (2017f). _For Relational Database Developers: A SQL to Cypher Guide_. Retrieved April 9, 2017, from https://neo4j.com/developer/guide-sql-to-cypher
-- Neo Technology, Inc. (2017g). _Graph DB vs RDBMS_. Retrieved April, 9, 2017, from https://neo4j.com/developer/graph-db-vs-rdbms/
+- Neo Technology, Inc. (2017d). _Graph DB vs RDBMS_. Retrieved April, 9, 2017, from https://neo4j.com/developer/graph-db-vs-rdbms/
+- Neo Technology, Inc. (2017e). _Intro to Cypher_. Retrieved March 29, 2017, from https://neo4j.com/developer/cypher-query-language
+- Neo Technology, Inc. (2017f). _Neo4j Licensing_. Retrieved April 9, 2017, from https://neo4j.com/licensing/
+- Neo Technology, Inc. (2017g). _Neo4j: The World’s Leading Graph Database_. Retrieved April 9, 2017, from https://neo4j.com/product/
 - Mahler, D. (2014). _Graphendatenbank: Flexible Datenabfragen mit Neo4j_. Retrieved April 9, 2017, from https://www.heise.de/developer/artikel/Graphendatenbank-Flexible-Datenabfragen-mit-Neo4j-2176439.html
 - Panzarino, O. (2014). _Learning Cypher_. Birmingham, United Kingdom: Packt Publishing Ltd
 - Robinson, I., Webber, J. & Eifrem, E. (2013). _Graph Databases_. Sebastopol, CA: O'Reilly Media
