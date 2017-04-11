@@ -189,7 +189,7 @@ In addition the data models of graph databases are simpler and more expressive a
 
 Like SQL Neo4j also supports the transactional concepts (ACID). That means that data is never lost after it has been commited to the database.
 The query language is pretty similiar, but cypher, the query language of Neo4j, is more expressive.
-Following is a short comparison of the same transaction in SQL and Cypher. This example also demonstrates the strength of Cypher by eliminating two JOIN-operations.
+Following is a short comparison of the same transaction in SQL and Cypher. This example also demonstrates the strength of Cypher by eliminating two JOIN-operations. (Neo Technology, Inc. (2017d). Graph DB vs RDBMS)
 
 #### Cypher Statement
 ```Cypher
@@ -217,7 +217,7 @@ Since relationships are very important in graph databases, it's quite difficult 
 
 ### 4.3. Integration with other Database Systems
 This section will describe how to use Neo4j together with other database systems in a very basic way. It will not go in-depth and there will be no code examples to keep it as simple as possible.
-To get the advantages of each database system, data needs to be stored in each database with its own data models. This is called polyglot programming: using multiple different languages, here multiple different database systems. There are existing tools for different database systems which can be used as some kind of connector to another system. The connectors let the other system subscribe to update events, so the data can be inserted in one database system and then added in the other system. The developers of MongoDB for example have created a tool called "mongo-connector" where other applications can listen for update events. This enables a one-way synchronization with Neo4j. Of course all the data model transformations have to be made manually, but once set up the full potential of both databases can be used.
+To get the advantages of each database system, data needs to be stored in each database with its own data models. This is called polyglot programming: using multiple different languages, here multiple different database systems. There are existing tools for different database systems which can be used as some kind of connector to another system. The connectors let the other system subscribe to update events, so the data can be inserted in one database system and then added in the other system. The developers of MongoDB for example have created a tool called "mongo-connector" where other applications can listen for update events. This enables a one-way synchronization with Neo4j. Of course all the data model transformations have to be made manually, but once set up the full potential of both databases can be used. (Neo Technology, Inc. (2017h). Neo4j and MongoDB)
 
 ## 5. Conclusion
 
@@ -253,6 +253,7 @@ It is still the most popular graph database and some weaknesses can be handled b
 - Neo Technology, Inc. (2017e). _Intro to Cypher_. Retrieved March 29, 2017, from https://neo4j.com/developer/cypher-query-language
 - Neo Technology, Inc. (2017f). _Neo4j Licensing_. Retrieved April 9, 2017, from https://neo4j.com/licensing/
 - Neo Technology, Inc. (2017g). _Neo4j: The World’s Leading Graph Database_. Retrieved April 9, 2017, from https://neo4j.com/product/
+- Neo Technology, Inc. (2017h). _Neo4j and MongoDB_. Retrieved April, 9, 2017, from https://neo4j.com/developer/mongodb/
 - Mahler, D. (2014). _Graphendatenbank: Flexible Datenabfragen mit Neo4j_. Retrieved April 9, 2017, from https://www.heise.de/developer/artikel/Graphendatenbank-Flexible-Datenabfragen-mit-Neo4j-2176439.html
 - Panzarino, O. (2014). _Learning Cypher_. Birmingham, United Kingdom: Packt Publishing Ltd
 - Robinson, I., Webber, J. & Eifrem, E. (2013). _Graph Databases_. Sebastopol, CA: O'Reilly Media
