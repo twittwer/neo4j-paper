@@ -3,7 +3,7 @@
 Cypher is Neo4j’s open graph query language (Neo Technology, Inc., 2017a, "Cypher Query Language", para. 1). It was newly created to match the data-structures of Neo4j and to fulfill the special needs of Graph-Databases.
 In addition it's based on SQL to allow an easy entry point for developers, which already had to work with SQL. (Neo Technology, Inc., 2017b, "About Cypher", para. 1)
 Cypher’s syntax provides a familiar way to match patterns of nodes and relationships in the graph.
-Cypher is also a relatively simple but still very powerful language. (Mahler, D. (2014), "Fazit", para. 1)
+Cypher is also a relatively simple but still very powerful language. (Mahler, D., 2014, "Fazit", para. 1)
 Very complicated database queries can easily be expressed through Cypher.
 This allows users to focus on their domain instead of getting lost in database access because it allows the user to state what he wants to select, insert, update or delete from his graph data without requiring him to describe exactly how to do it.
 
